@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap");
+* {
+  background-color: #282c33;
+}
 body {
   margin: 0;
   font-family: "Fira Code", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
@@ -7,9 +10,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#root {
+/* #root {
   background-color: #282c33;
-}
+} */
 
 .navbar-Icon {
   width: 70px;
@@ -30,7 +33,7 @@ body {
   border: none !important;
 }
 
-.color-primary {
+.primary-color {
   color: #c778dd !important ;
 }
 
@@ -68,4 +71,43 @@ body {
   height: 10px;
   width: 10px;
   margin: 0 10px 0 10px;
+}
+
+.btn-contact {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #c778dd !important;
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  width: auto;
+}
+
+.quote-message {
+  width: 50% !important;
+  padding: 16px 32px 16px 32px;
+  border: 1px solid #c778dd;
+}
+
+.fixed-icons {
+  height: 450px;
+}
+
+.iconsLine {
+  width: 1px;
+  height: 300px;
+  background-color: #abb2bf;
+}
+
+.project-line {
+  width: 80%;
+  height: 1px;
+  background-color: #c778dd;
+  top: 50%;
+  z-index: 1;
+}
+
+.projects-h1 {
+  top: 50%;
+  background-color: #282c33;
+  z-index: 2;
 }
