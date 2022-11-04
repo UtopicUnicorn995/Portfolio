@@ -1,5 +1,6 @@
 import HomeProjects from "../components/HomeProjects";
 import MainHome from "../components/MainHome";
+import HomeSkills from "../components/HomeSkills";
 
 function Home() {
   return (
@@ -7,6 +8,7 @@ function Home() {
       <div className="homepage ">
         <MainHome />
         <HomeProjects />
+        <HomeSkills />
       </div>
     </>
   );

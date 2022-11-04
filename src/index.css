@@ -106,6 +106,14 @@ body {
   z-index: 1;
 }
 
+.skills-line {
+  width: 50%;
+  height: 1px;
+  background-color: #c778dd;
+  top: 50%;
+  z-index: 1;
+}
+
 .projects-h1 {
   top: 50%;
   background-color: #282c33;
@@ -114,4 +122,51 @@ body {
 
 .footer {
   border-top: 1px solid #abb2bf;
+}
+
+h5 {
+  font-size: 0.83rem !important;
+}
+
+.view-more-button {
+  animation: button-animation infinite linear 2s;
+}
+
+.view-more-button button h5 {
+  transition: 0.4s linear all;
+}
+
+.view-more-button:hover button h5 {
+  font-size: 0.87rem !important;
+  color: #c778dd !important;
+}
+
+@keyframes button-animation {
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(1px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+
+.icons {
+  color: #abb2bf;
+  transition: 0.35s color;
+}
+
+.icons:hover {
+  color: #c778dd;
+}
+
+.card-button:hover {
+  background-color: transparent !important;
+  border-color: #c778dd !important;
+}
+
+.col .card {
+  border-color: #abb2bf !important;
 }

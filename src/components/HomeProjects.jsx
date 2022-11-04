@@ -1,13 +1,15 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { FaArrowRight } from "react-icons/fa";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import { FaArrowRight, FaArrowsAltH, FaDesktop } from "react-icons/fa";
 
 function HomeProjects() {
   return (
     <Container className="mt-5">
       <Row>
-        <Col lg={9} xs={12} className="mb-4 mb-lg-0">
+        <Col lg={9} xs={12} className="mb-3 mb-lg-0">
           <div className="position-relative">
             <h1 className="secondary-color projects-h1 d-inline position-relative pe-3">
               <span className="primary-color">#</span>Projects
@@ -18,9 +20,9 @@ function HomeProjects() {
         <Col
           lg={3}
           xs={12}
-          className="d-flex justify-content-end justify-content-lg-center align-items-center "
+          className="mt-3 mt-lg-0 d-flex justify-content-end justify-content-lg-center align-items-center "
         >
-          <div className="position-relative ">
+          <div className="position-relative view-more-button">
             <button className="border border-0">
               <h5 className="secondary-color projects-h1 d-inline position-relative-pe-3">
                 View more <FaArrowRight />
@@ -29,6 +31,145 @@ function HomeProjects() {
           </div>
         </Col>
       </Row>
+
+      {/* //Cards */}
+
+      <Container className="my-5">
+        <Row>
+          <Col
+            xs={12}
+            lg={4}
+            className="d-flex justify-content-center align-items-center"
+          >
+            <Card
+              className="m-2 rounded-0 border border-0"
+              style={{ width: "18rem" }}
+            >
+              <Card.Img
+                className="rounded-0"
+                variant="top"
+                src="holder.js/100px180"
+              />
+              <Card.Body>
+                <Card.Header>Featured</Card.Header>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Row>
+                  <Col className="justify-content-center d-flex">
+                    <Button
+                      className="rounded-0 card-button"
+                      variant="outline-secondary"
+                    >
+                      Live&nbsp;
+                      <FaArrowsAltH />
+                    </Button>
+                  </Col>
+                  <Col className="justify-content-center d-flex">
+                    <Button
+                      className="rounded-0 card-button"
+                      variant="outline-secondary"
+                    >
+                      Demo&nbsp;
+                      <FaDesktop />
+                    </Button>
+                  </Col>
+                </Row>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col
+            lg={4}
+            xs={12}
+            className="d-flex justify-content-center align-items-center"
+          >
+            <Card
+              className="m-2 rounded-0 border border-0"
+              style={{ width: "18rem" }}
+            >
+              <Card.Img
+                className="rounded-0"
+                variant="top"
+                src="holder.js/100px180"
+              />
+              <Card.Body>
+                <Card.Header>Featured</Card.Header>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Row>
+                  <Col className="justify-content-center d-flex">
+                    <Button
+                      className="rounded-0 card-button"
+                      variant="outline-secondary"
+                    >
+                      Live&nbsp;
+                      <FaArrowsAltH />
+                    </Button>
+                  </Col>
+                  <Col className="justify-content-center d-flex">
+                    <Button
+                      className="rounded-0 card-button"
+                      variant="outline-secondary"
+                    >
+                      Demo&nbsp;
+                      <FaDesktop />
+                    </Button>
+                  </Col>
+                </Row>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col
+            lg={4}
+            xs={12}
+            className="d-flex justify-content-center align-items-center"
+          >
+            <Card
+              className="m-2 rounded-0 border border-0"
+              style={{ width: "18rem" }}
+            >
+              <Card.Img
+                className="rounded-0"
+                variant="top"
+                src="holder.js/100px180"
+              />
+              <Card.Body>
+                <Card.Header>Featured</Card.Header>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Row>
+                  <Col className="justify-content-center d-flex">
+                    <Button
+                      className="rounded-0 card-button"
+                      variant="outline-secondary"
+                    >
+                      Live&nbsp;
+                      <FaArrowsAltH />
+                    </Button>
+                  </Col>
+                  <Col className="justify-content-center d-flex">
+                    <Button
+                      className="rounded-0 card-button"
+                      variant="outline-secondary"
+                    >
+                      Demo&nbsp;
+                      <FaDesktop />
+                    </Button>
+                  </Col>
+                </Row>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
     </Container>
   );
 }

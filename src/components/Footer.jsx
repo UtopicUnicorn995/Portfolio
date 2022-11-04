@@ -21,15 +21,15 @@ function Footer() {
         </Col>
         <Col lg={5} className=" d-flex justify-content-end d-none d-lg-block">
           <Row>
-            <Col className="text-center" lg={12}>
+            <Col className="text-center mb-3" lg={12}>
               Media
             </Col>
             <Col className="d-flex justify-content-around px-5">
               {" "}
-              <FaFacebookMessenger />
-              <FaGoogle />
-              <FaSms />
-              <FaGithub />
+              <FaFacebookMessenger className="icons" />
+              <FaGoogle className="icons" />
+              <FaSms className="icons" />
+              <FaGithub className="icons" />
             </Col>
           </Row>
         </Col>
