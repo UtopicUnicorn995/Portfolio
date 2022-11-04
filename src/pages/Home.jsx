@@ -4,8 +4,10 @@ import MainHome from "../components/MainHome";
 function Home() {
   return (
     <>
-      <MainHome />
-      <HomeProjects />
+      <div className="homepage ">
+        <MainHome />
+        <HomeProjects />
+      </div>
     </>
   );
 }

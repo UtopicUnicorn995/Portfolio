@@ -111,3 +111,7 @@ body {
   background-color: #282c33;
   z-index: 2;
 }
+
+.footer {
+  border-top: 1px solid #abb2bf;
+}

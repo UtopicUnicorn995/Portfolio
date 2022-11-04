@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 
 function HomeProjects() {
   return (
-    <Container>
+    <Container className="mt-5">
       <div className="position-relative">
         <h1 className="secondary-color projects-h1 d-inline position-relative pe-3">
           <span className="primary-color">#</span>Projects
