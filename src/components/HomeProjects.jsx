@@ -51,8 +51,12 @@ function HomeProjects() {
                 src="holder.js/100px180"
               />
               <Card.Body>
-                <Card.Header>Featured</Card.Header>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Header className="spanHead">
+                  <span className="card-span">ReactJS</span>{" "}
+                  <span className="card-span">Firebase</span>{" "}
+                  <span className="card-span">FirestoreDB</span>{" "}
+                </Card.Header>
+                <Card.Title>House Market</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -95,8 +99,12 @@ function HomeProjects() {
                 src="holder.js/100px180"
               />
               <Card.Body>
-                <Card.Header>Featured</Card.Header>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Header className="spanHead">
+                  <span className="card-span">ReactJS</span>{" "}
+                  <span className="card-span">NodeJS</span>{" "}
+                  <span className="card-span">MySql</span>{" "}
+                </Card.Header>
+                <Card.Title>LeChef Culinary School</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -139,8 +147,12 @@ function HomeProjects() {
                 src="holder.js/100px180"
               />
               <Card.Body>
-                <Card.Header>Featured</Card.Header>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Header className="spanHead">
+                  <span className="card-span">ReactJS</span>{" "}
+                  <span className="card-span">NodeJS</span>{" "}
+                  <span className="card-span">MongoDB</span>{" "}
+                </Card.Header>
+                <Card.Title>Tommy's Water Sports</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -169,6 +181,9 @@ function HomeProjects() {
             </Card>
           </Col>
         </Row>
+        <Card body id="card">
+          This is some text within a card body.
+        </Card>
       </Container>
     </Container>
   );

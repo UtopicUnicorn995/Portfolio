@@ -8,7 +8,7 @@ function Footer() {
   return (
     <Container className="text-white  pt-5 footer mt-3">
       <Row>
-        <Col lg={7} className="d-none d-lg-block">
+        <Col lg={8} className="d-none d-lg-block">
           <Row>
             <Col lg={12} className="secondary-color">
               <img src={MainIcon} className="navbar-Icon" />{" "}
@@ -19,7 +19,7 @@ function Footer() {
             </Col>
           </Row>
         </Col>
-        <Col lg={5} className=" d-flex justify-content-end d-none d-lg-block">
+        <Col lg={4} className=" d-flex justify-content-end d-none d-lg-block">
           <Row>
             <Col className="text-center mb-3" lg={12}>
               Media
