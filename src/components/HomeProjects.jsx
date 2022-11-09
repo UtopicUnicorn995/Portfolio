@@ -9,7 +9,7 @@ import { FaArrowRight, FaArrowsAltH, FaDesktop } from "react-icons/fa";
 
 function HomeProjects() {
   return (
-    <Container className="mt-5">
+    <Container className="my-lg-5">
       <Row>
         <Col lg={9} xs={12} className="mb-3 mb-lg-0">
           <div className="position-relative">

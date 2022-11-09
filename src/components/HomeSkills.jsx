@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 
 function HomeSkills() {
   return (
-    <Container>
+    <Container className="my-lg-5">
       <Row className="d-flex justify-content-between">
         <Col xs={12} className="mb-4 mb-lg-0">
           <div className="position-relative">

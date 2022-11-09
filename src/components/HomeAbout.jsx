@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 function HomeAbout() {
   return (
-    <Container>
+    <Container className="my-lg-5">
       <Row>
         <Col xs={12} className="mb-4 mb-lg-0">
           <div className="position-relative">

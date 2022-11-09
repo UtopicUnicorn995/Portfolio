@@ -369,6 +369,11 @@ h5 {
 }
 
 .text-hover:hover {
-  color: white;
+  color: white !important;
   transition: 0.5s ease all;
+}
+
+a {
+  text-decoration: none !important;
+  color: #abb2bf !important;
 }
