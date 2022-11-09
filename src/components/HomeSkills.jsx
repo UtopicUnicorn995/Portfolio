@@ -43,67 +43,67 @@ function HomeSkills() {
           </Row> */}
         </Col>
         <Col lg={7} xs={12}>
-          <Container>
-            <Row className="d-flex justify-content-end">
-              <Col lg={4}>
-                <Card.Body className="text-center  m-3 border border-secondary">
-                  <Card.Header className="border-bottom border-secondary p-3">
-                    Languages
-                  </Card.Header>
+          <Row className="d-flex justify-content-end">
+            <Col lg={4}>
+              <Card.Body className="text-center  m-3 border border-secondary">
+                <Card.Header className="border-bottom border-secondary p-3">
+                  Languages
+                </Card.Header>
 
-                  <Card.Text className="p-3">PHP JavaScript Python</Card.Text>
-                </Card.Body>
-              </Col>
-              <Col lg={4}>
-                <Card.Body className="text-center  m-3 border border-secondary">
-                  <Card.Header className="border-bottom border-secondary p-3">
-                    Databases
-                  </Card.Header>
+                <Card.Text className="p-3 text-secondary">
+                  PHP JavaScript Python
+                </Card.Text>
+              </Card.Body>
+            </Col>
+            <Col lg={4}>
+              <Card.Body className="text-center  m-3 border border-secondary">
+                <Card.Header className="border-bottom border-secondary p-3">
+                  Databases
+                </Card.Header>
 
-                  <Card.Text className="p-3">
-                    MongoDB MySQL FirestoreDB
-                  </Card.Text>
-                </Card.Body>
-              </Col>
-              <Col lg={4}>
-                <Card.Body className="text-center  m-3 border border-secondary">
-                  <Card.Header className="border-bottom border-secondary p-3">
-                    Tools
-                  </Card.Header>
+                <Card.Text className="p-3 text-secondary">
+                  MongoDB MySQL FirestoreDB
+                </Card.Text>
+              </Card.Body>
+            </Col>
+            <Col lg={4}>
+              <Card.Body className="text-center  m-3 border border-secondary">
+                <Card.Header className="border-bottom border-secondary p-3">
+                  Tools
+                </Card.Header>
 
-                  <Card.Text className="p-3">
-                    VSCode Sublime Figma Git GitBash FontAwesome Figma
-                  </Card.Text>
-                </Card.Body>
-              </Col>
-              <Row className="d-flex justify-content-end">
-                <Col lg={4}>
-                  <Card.Body className="text-center  m-3 border border-secondary">
-                    <Card.Header className="border-bottom border-secondary p-3">
-                      Others
-                    </Card.Header>
+                <Card.Text className="p-3 text-secondary">
+                  VSCode Sublime Figma Git GitBash FontAwesome Figma
+                </Card.Text>
+              </Card.Body>
+            </Col>
+            {/* <Row className="d-flex justify-content-end"> */}
+            <Col lg={4}>
+              <Card.Body className="text-center  m-3 border border-secondary">
+                <Card.Header className="border-bottom border-secondary p-3">
+                  Others
+                </Card.Header>
 
-                    <Card.Text className="p-3">
-                      HTML CSS SCSS REST RAPID API
-                    </Card.Text>
-                  </Card.Body>
-                </Col>
-                <Col lg={4}>
-                  <Card.Body className="text-center  m-3 border border-secondary">
-                    <Card.Header className="border-bottom border-secondary p-3">
-                      Frameworks/
-                      <br />
-                      Libraries
-                    </Card.Header>
+                <Card.Text className="p-3 text-secondary">
+                  HTML CSS SCSS REST RAPID API
+                </Card.Text>
+              </Card.Body>
+            </Col>
+            <Col lg={4}>
+              <Card.Body className="text-center  m-3 border border-secondary">
+                <Card.Header className="border-bottom border-secondary p-3">
+                  Frameworks/
+                  <br />
+                  Libraries
+                </Card.Header>
 
-                    <Card.Text className="p-3">
-                      ReactJS ExpressJS Bootstrap ReactNative
-                    </Card.Text>
-                  </Card.Body>
-                </Col>
-              </Row>
-            </Row>
-          </Container>
+                <Card.Text className="p-3 text-secondary">
+                  ReactJS ExpressJS Bootstrap ReactNative
+                </Card.Text>
+              </Card.Body>
+            </Col>
+            {/* </Row> */}
+          </Row>
         </Col>
       </Row>
     </Container>

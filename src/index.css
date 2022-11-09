@@ -80,6 +80,18 @@ body {
   padding: 8px 16px 8px 16px;
   gap: 10px;
   width: auto;
+  transition: scale 0.4s ease;
+}
+
+.btn-contact:hover {
+  scale: 1.05;
+  transition: all 0.4s ease;
+}
+
+.btn-contact:active {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
 }
 
 .quote-message {
@@ -350,4 +362,13 @@ h5 {
     left: 0px;
     top: 135px;
   }
+}
+
+.text-hover {
+  transition: all 0.5s ease;
+}
+
+.text-hover:hover {
+  color: white;
+  transition: 0.5s ease all;
 }
