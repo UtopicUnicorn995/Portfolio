@@ -94,7 +94,7 @@ function HomeProjects() {
               <Card.Img
                 className="rounded-0"
                 variant="top"
-                src="holder.js/100px180"
+                src={require("../assets/leChef.png")}
               />
               <Card.Body>
                 <Card.Header className="spanHead">

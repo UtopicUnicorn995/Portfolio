@@ -14,10 +14,34 @@ function HomeSkills() {
             <div className="skills-line position-absolute"></div>
           </div>
         </Col>
-        <Col lg={4} className="d-none d-lg-block">
-          itens
+        <Col
+          lg={5}
+          className="d-none d-lg-block position-relative skills-div-cont"
+        >
+          {/* <Row>
+            <Col xs={6} className="p-4"> */}
+          <div className="box box1 position-absolute">
+            <img src={require("../assets/icon1.png")} alt="" />
+          </div>
+          {/* </Col>
+            <Col xs={6} className="p-4"> */}
+          <div className="box box2 position-absolute">
+            <img src={require("../assets/icon2.png")} alt="" />
+          </div>
+          {/* </Col>
+            <Col xs={6} className="p-4"> */}
+          <div className="box box3 position-absolute">
+            <img src={require("../assets/icon3.png")} alt="" />
+          </div>
+          {/* </Col>
+            <Col xs={6} className="p-4"> */}
+          <div className="box box4  position-absolute">
+            <img src={require("../assets/icon4.png")} alt="" />
+          </div>
+          {/* </Col>
+          </Row> */}
         </Col>
-        <Col lg={8} xs={12}>
+        <Col lg={7} xs={12}>
           desce
         </Col>
       </Row>
