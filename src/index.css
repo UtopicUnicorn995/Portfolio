@@ -253,17 +253,20 @@ h5 {
 
 @keyframes box1Rotate {
   0% {
-    scale: 1.1;
+    scale: 0.99;
   }
   25% {
+    scale: 0.94;
     right: 0;
     top: 270px;
   }
   50% {
+    scale: 0.89;
     top: 270px;
     right: 135px;
   }
   75% {
+    scale: 0.84;
     top: 0;
     right: 135px;
   }
@@ -277,17 +280,20 @@ h5 {
 
 @keyframes box2Rotate {
   0% {
-    scale: 1.1;
+    scale: 0.99;
   }
   25% {
+    scale: 0.94;
     right: 270px;
     bottom: 0;
   }
   50% {
+    scale: 0.89;
     right: 270px;
     bottom: 135px;
   }
   75% {
+    scale: 0.84;
     right: 0;
     bottom: 135px;
   }
@@ -301,17 +307,20 @@ h5 {
 
 @keyframes box3Rotate {
   0% {
-    scale: 1.1;
+    scale: 0.99;
   }
   25% {
+    scale: 0.94;
     left: 0;
     bottom: 270px;
   }
   50% {
+    scale: 0.89;
     bottom: 270px;
     left: 135px;
   }
   75% {
+    scale: 0.84;
     left: 135px;
     bottom: 0;
   }
@@ -324,17 +333,20 @@ h5 {
 }
 @keyframes box4Rotate {
   0% {
-    scale: 1.1;
+    scale: 0.99;
   }
   25% {
+    scale: 0.94;
     top: 0px;
     left: 270px;
   }
   50% {
+    scale: 0.89;
     left: 270px;
     top: 135px;
   }
   75% {
+    scale: 0.84;
     left: 0px;
     top: 135px;
   }
