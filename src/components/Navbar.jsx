@@ -20,16 +20,16 @@ function NavigationBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className=" ms-auto">
             <Nav.Link href="#home">
-              <span className="color-primary">#</span>Home
+              <span className="primary-color">#</span>Home
             </Nav.Link>
             <Nav.Link href="#link">
-              <span className="color-primary">#</span>Works
+              <span className="primary-color">#</span>Works
             </Nav.Link>
             <Nav.Link href="#link">
-              <span className="color-primary">#</span>About-me
+              <span className="primary-color">#</span>About-me
             </Nav.Link>
             <Nav.Link href="#link">
-              <span className="color-primary">#</span>Contacts
+              <span className="primary-color">#</span>Contacts
             </Nav.Link>
             <NavDropdown
               title="EN"

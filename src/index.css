@@ -171,10 +171,6 @@ h5 {
   border-color: #c778dd !important;
 }
 
-#card:hover {
-  border-color: #c778dd !important;
-}
-
 .spanHead {
   transform: scale(0.94);
   animation: scale 3s linear infinite cubic-bezier(0.5, 1, 0.89, 1);
@@ -208,4 +204,17 @@ h5 {
     opacity: 1;
     filter: blur(0);
   }
+}
+
+.btn-text:hover {
+  color: white !important;
+}
+
+.text-secondary {
+  transition: 0.5s ease all;
+}
+
+.card-body:hover .text-secondary {
+  color: #d4d5d7 !important;
+  transition: 0.5s ease all;
 }

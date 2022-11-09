@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+// import HouseMarketImg from "../assets/HouseMarketImg.png";
 import { FaArrowRight, FaArrowsAltH, FaDesktop } from "react-icons/fa";
 
 function HomeProjects() {
@@ -42,13 +44,14 @@ function HomeProjects() {
             className="d-flex justify-content-center align-items-center"
           >
             <Card
-              className="m-2 rounded-0 border border-0"
+              body
+              className="m-2 rounded-0 border-secondary"
               style={{ width: "18rem" }}
             >
               <Card.Img
                 className="rounded-0"
                 variant="top"
-                src="holder.js/100px180"
+                src={require("../assets/houseMarket.png")}
               />
               <Card.Body>
                 <Card.Header className="spanHead">
@@ -57,28 +60,22 @@ function HomeProjects() {
                   <span className="card-span">FirestoreDB</span>{" "}
                 </Card.Header>
                 <Card.Title>House Market</Card.Title>
-                <Card.Text>
+                <Card.Text className="text-secondary">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Button
-                      className="rounded-0 card-button"
-                      variant="outline-secondary"
-                    >
+                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Button>
+                    </Link>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Button
-                      className="rounded-0 card-button"
-                      variant="outline-secondary"
-                    >
+                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
                       Demo&nbsp;
                       <FaDesktop />
-                    </Button>
+                    </Link>
                   </Col>
                 </Row>
               </Card.Body>
@@ -90,7 +87,8 @@ function HomeProjects() {
             className="d-flex justify-content-center align-items-center"
           >
             <Card
-              className="m-2 rounded-0 border border-0"
+              body
+              className="m-2 rounded-0 border border-secondary"
               style={{ width: "18rem" }}
             >
               <Card.Img
@@ -105,28 +103,22 @@ function HomeProjects() {
                   <span className="card-span">MySql</span>{" "}
                 </Card.Header>
                 <Card.Title>LeChef Culinary School</Card.Title>
-                <Card.Text>
+                <Card.Text className="text-secondary">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Button
-                      className="rounded-0 card-button"
-                      variant="outline-secondary"
-                    >
+                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Button>
+                    </Link>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Button
-                      className="rounded-0 card-button"
-                      variant="outline-secondary"
-                    >
+                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
                       Demo&nbsp;
                       <FaDesktop />
-                    </Button>
+                    </Link>
                   </Col>
                 </Row>
               </Card.Body>
@@ -138,13 +130,14 @@ function HomeProjects() {
             className="d-flex justify-content-center align-items-center"
           >
             <Card
-              className="m-2 rounded-0 border border-0"
+              body
+              className="m-2 rounded-0 border border-secondary"
               style={{ width: "18rem" }}
             >
               <Card.Img
                 className="rounded-0"
                 variant="top"
-                src="holder.js/100px180"
+                src={require("../assets/watersport.png")}
               />
               <Card.Body>
                 <Card.Header className="spanHead">
@@ -153,37 +146,28 @@ function HomeProjects() {
                   <span className="card-span">MongoDB</span>{" "}
                 </Card.Header>
                 <Card.Title>Tommy's Water Sports</Card.Title>
-                <Card.Text>
+                <Card.Text className="text-secondary">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Button
-                      className="rounded-0 card-button"
-                      variant="outline-secondary"
-                    >
+                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Button>
+                    </Link>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Button
-                      className="rounded-0 card-button"
-                      variant="outline-secondary"
-                    >
+                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
                       Demo&nbsp;
                       <FaDesktop />
-                    </Button>
+                    </Link>
                   </Col>
                 </Row>
               </Card.Body>
             </Card>
           </Col>
         </Row>
-        <Card body id="card">
-          This is some text within a card body.
-        </Card>
       </Container>
     </Container>
   );
