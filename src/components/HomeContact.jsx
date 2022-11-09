@@ -24,8 +24,8 @@ function HomeContact() {
         >
           <p className="w-75 text-hover ">
             I&#39;m interested in freelance and full-time opportunities.
-            However, if you have other request or question, don&#39;t hesitate
-            to contact me
+            However, if you have other request or question, please don&#39;t
+            hesitate to contact me
           </p>
         </Col>
         <Col xs={12} lg={6}>

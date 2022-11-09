@@ -43,14 +43,14 @@ function MainHome() {
           </div>
         </Col>
         <Col lg={12} className="d-none d-lg-block mt-5 quote-message">
-          <figure class="text-center d-lg-flex flex-column justify-content-center">
-            <blockquote class="blockquote">
+          <figure className="text-center d-lg-flex flex-column justify-content-center">
+            <blockquote className="blockquote">
               <p>
                 "The only way to learn a new programming language is by writing
                 programs in it."
               </p>
             </blockquote>
-            <figcaption class="blockquote-footer mb-0">
+            <figcaption className="blockquote-footer mb-0">
               <cite title="Source Title">Dennis Ritchie</cite>
             </figcaption>
           </figure>

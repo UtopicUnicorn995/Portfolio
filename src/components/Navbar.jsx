@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import MainIcon from "../assets/navLogo.png";
+import { Link } from "react-router-dom";
 import { FaFacebookMessenger, FaGoogle, FaSms, FaGithub } from "react-icons/fa";
 
 function NavigationBar() {
@@ -13,22 +14,22 @@ function NavigationBar() {
       expand="lg"
     >
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand as={Link} to="/">
           <img className="navbar-Icon" src={MainIcon} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className=" ms-auto">
-            <Nav.Link href="#home">
+            <Nav.Link as={Link} to="/">
               <span className="primary-color">#</span>Home
             </Nav.Link>
-            <Nav.Link href="#link">
+            <Nav.Link as={Link} to="/projects">
               <span className="primary-color">#</span>Works
             </Nav.Link>
-            <Nav.Link href="#link">
+            <Nav.Link as={Link} to="/about">
               <span className="primary-color">#</span>About-me
             </Nav.Link>
-            <Nav.Link href="#link">
+            <Nav.Link as={Link} to="/Contact">
               <span className="primary-color">#</span>Contacts
             </Nav.Link>
             <NavDropdown
