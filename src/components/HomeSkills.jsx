@@ -98,7 +98,7 @@ function HomeSkills() {
                 </Card.Header>
 
                 <Card.Text className="p-3 text-secondary">
-                  ReactJS ExpressJS Bootstrap ReactNative
+                  ReactJS ExpressJS ReactNative Bootstrap TailwindCSS
                 </Card.Text>
               </Card.Body>
             </Col>

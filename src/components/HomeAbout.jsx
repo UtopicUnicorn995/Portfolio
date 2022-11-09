@@ -17,8 +17,8 @@ function HomeAbout() {
           </div>
         </Col>
       </Row>
-      <Row className="d-flex flex-column-reverse flex-lg-row ">
-        <Col lg={6} className="text-secondary py-5">
+      <Row className="d-flex flex-column-reverse flex-lg-row px-4">
+        <Col lg={6} className="text-secondary px-3">
           <p className="my-4 text-hover">Hello I'm Ian!</p>
 
           <p className="my-4 text-hover">
@@ -32,13 +32,22 @@ function HomeAbout() {
             fellow developers to establish their presence online. I always
             strive to learn about the newest technologies and frameworks.
           </p>
-          <Link to="/about">
-            <div className="button-container">
-              <button className="d-none btn-contact d-lg-block px-4">
-                Read more <FaArrowRight />
-              </button>
-            </div>
-          </Link>
+          <div className="d-flex justify-content-between">
+            <Link to="/about">
+              <div className="button-container">
+                <button className="d-none btn-contact d-lg-block px-4">
+                  Read more <FaArrowRight />
+                </button>
+              </div>
+            </Link>
+            <Link to="/about">
+              <div className="button-container">
+                <button className="d-none btn-contact d-lg-block px-4">
+                  Download Resume <FaArrowRight />
+                </button>
+              </div>
+            </Link>
+          </div>
         </Col>
         <Col lg={6} className="d-flex justify-content-center">
           <img
