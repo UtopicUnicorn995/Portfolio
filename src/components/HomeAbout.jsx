@@ -44,15 +44,13 @@ function HomeAbout() {
                 </button>
               </div>
             </Link>
-
-            <div className="button-container">
-              <button
-                className="d-none btn-contact d-lg-block px-4"
-                onClick={viewResume}
-              >
-                View Resume <FaEye />
-              </button>
-            </div>
+            <a href={pdf}>
+              <div className="button-container">
+                <button className="d-none btn-contact d-lg-block px-4">
+                  View Resume <FaEye />
+                </button>
+              </div>
+            </a>
           </div>
         </Col>
         <Col lg={6} className="d-flex justify-content-center">
