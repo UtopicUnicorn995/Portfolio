@@ -9,7 +9,7 @@ import { FaFacebookMessenger, FaGoogle, FaSms, FaGithub } from "react-icons/fa";
 function NavigationBar() {
   return (
     <Navbar
-      className="mainNavBar justify-content-between "
+      className="mainNavBar    justify-content-between "
       variant="dark"
       expand="lg"
     >

@@ -23,7 +23,7 @@ function HomeAbout() {
       </Row>
       <Row className="d-flex flex-column-reverse flex-lg-row px-4">
         <Col lg={6} className="text-secondary px-3">
-          <p className="my-4 text-hover">Hello I'm Ian!</p>
+          <p className="my-4 text-hover">Hello, I'm Ian!</p>
 
           <p className="my-4 text-hover">
             I am a full stack developer based in Iloilo, Philippines. I can
@@ -44,7 +44,7 @@ function HomeAbout() {
                 </button>
               </div>
             </Link>
-            <a href={pdf}>
+            <a href={pdf} target="_blank">
               <div className="button-container">
                 <button className="d-none btn-contact d-lg-block px-4">
                   View Resume <FaEye />

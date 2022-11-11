@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 function MainHome() {
   return (
     <Container>
-      <Row className="mt-lg-3 flex-row justify-content-center">
+      <Row className="mt-lg-3  flex-row justify-content-center">
         <Col lg={7} className="d-lg-flex flex-column justify-content-center">
           <h1 className="homeH1 mb-3 mt-2">
             Ian is a <span className="primary-color">Full-Stack developer</span>{" "}

@@ -18,6 +18,10 @@ body {
   width: 70px;
 }
 
+.mainNavBar {
+  z-index: 1;
+}
+
 .mainNavBar,
 .dropdown-menu {
   background-color: #282c33 !important;
@@ -376,4 +380,12 @@ h5 {
 a {
   text-decoration: none !important;
   color: #abb2bf !important;
+}
+
+.box-hover:hover {
+  scale: 1.08;
+}
+
+.iconsLines {
+  z-index: 2 !important;
 }

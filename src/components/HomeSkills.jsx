@@ -21,22 +21,22 @@ function HomeSkills() {
         >
           {/* <Row>
             <Col xs={6} className="p-4"> */}
-          <div className="box box1 position-absolute">
+          <div className="box box1 position-absolute box-hover">
             <img src={require("../assets/icon1.png")} alt="" />
           </div>
           {/* </Col>
             <Col xs={6} className="p-4"> */}
-          <div className="box box2 position-absolute">
+          <div className="box box2 position-absolute box-hover">
             <img src={require("../assets/icon2.png")} alt="" />
           </div>
           {/* </Col>
             <Col xs={6} className="p-4"> */}
-          <div className="box box3 position-absolute">
+          <div className="box box3 position-absolute box-hover">
             <img src={require("../assets/icon3.png")} alt="" />
           </div>
           {/* </Col>
             <Col xs={6} className="p-4"> */}
-          <div className="box box4  position-absolute">
+          <div className="box box4  position-absolute box-hover">
             <img src={require("../assets/icon4.png")} alt="" />
           </div>
           {/* </Col>
