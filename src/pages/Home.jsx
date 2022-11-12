@@ -10,7 +10,7 @@ function Home() {
 
   return (
     <>
-      <div className="homepage ">
+      <div className="homepage mt-5 pt-3">
         <MainHome />
         <HomeProjects />
         <HomeSkills />

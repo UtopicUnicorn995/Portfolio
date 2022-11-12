@@ -6,7 +6,7 @@ import pdf from "../assets/ChristianBarriosResume(latest).pdf";
 
 function About() {
   return (
-    <Container className="text-secondary">
+    <Container className="text-secondary  mt-5 pt-3">
       <Container className="my-4">
         <h3 className="text-hover mt-3 text-white">
           <span className="primary-color">/</span>about-me

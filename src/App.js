@@ -11,7 +11,6 @@ function App() {
   return (
     <Router>
       <NavigationBar />
-      <FixedIcons />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/projects" element={<Project />} />

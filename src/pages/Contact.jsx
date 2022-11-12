@@ -11,7 +11,7 @@ function Contact() {
   }, [isContactPage]);
 
   return (
-    <Container className="secondary-color">
+    <Container className="secondary-color mt-5 pt-3">
       <Container className="my-4">
         <h3 className="text-hover mt-3 text-white">
           <span className="primary-color">/</span>contacts
