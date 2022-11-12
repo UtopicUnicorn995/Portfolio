@@ -13,7 +13,7 @@ function HomeProjects() {
       <Row>
         <Col lg={9} xs={12} className="mb-3 mb-lg-0">
           <div className="position-relative">
-            <h1 className="secondary-color projects-h1 d-inline position-relative pe-3">
+            <h1 className="text-white projects-h1 d-inline position-relative pe-3">
               <span className="primary-color">#</span>Projects
             </h1>
             <div className="project-line position-absolute"></div>

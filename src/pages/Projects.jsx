@@ -7,13 +7,13 @@ function Projects() {
   return (
     <Container className="secondary-color ">
       <Container className="my-4">
-        <h3 className="text-hover mt-3 ">
+        <h3 className="text-hover mt-3 text-white">
           <span className="primary-color">/</span>projects
         </h3>
         <p>list of my projects</p>
       </Container>
       <Container className="mt-5">
-        <h4 className="text-hover">
+        <h4 className="text-hover text-white">
           <span className="primary-color">#</span>completed projects
         </h4>
       </Container>
@@ -126,7 +126,7 @@ function Projects() {
                   <span className="card-span">NodeJS</span>{" "}
                   <span className="card-span">MongoDB</span>{" "}
                 </Card.Header>
-                <Card.Title>Tommy's Water Sports</Card.Title>
+                <Card.Title> Water Sports Ride</Card.Title>
                 <Card.Text className="text-secondary">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -151,7 +151,7 @@ function Projects() {
         </Row>
       </Container>
       <Container className="my-5">
-        <h4 className="text-hover">
+        <h4 className="text-hover text-white">
           <span className="primary-color">#</span>small projects
         </h4>
       </Container>

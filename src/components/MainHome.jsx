@@ -8,7 +8,7 @@ function MainHome() {
     <Container>
       <Row className="mt-lg-3  flex-row justify-content-center">
         <Col lg={7} className="d-lg-flex flex-column justify-content-center">
-          <h1 className="homeH1 mb-3 mt-2">
+          <h1 className="homeH1 mb-3 mt-2 text">
             Ian is a <span className="primary-color">Full-Stack developer</span>{" "}
             and
             <span className="primary-color"> React Native developer</span>

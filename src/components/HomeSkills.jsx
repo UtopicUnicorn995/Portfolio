@@ -9,7 +9,7 @@ function HomeSkills() {
       <Row className="d-flex justify-content-between">
         <Col xs={12} className="mb-4 mb-lg-0">
           <div className="position-relative">
-            <h1 className="secondary-color projects-h1 d-inline position-relative pe-3">
+            <h1 className="text-white projects-h1 d-inline position-relative pe-3">
               <span className="primary-color">#</span>Skills
             </h1>
             <div className="skills-line position-absolute"></div>
@@ -50,7 +50,7 @@ function HomeSkills() {
                   Languages
                 </Card.Header>
 
-                <Card.Text className="p-3 text-secondary">
+                <Card.Text className="p-3 text-hover text-secondary">
                   PHP JavaScript Python
                 </Card.Text>
               </Card.Body>
@@ -61,7 +61,7 @@ function HomeSkills() {
                   Databases
                 </Card.Header>
 
-                <Card.Text className="p-3 text-secondary">
+                <Card.Text className="p-3 text-hover text-secondary">
                   MongoDB MySQL FirestoreDB
                 </Card.Text>
               </Card.Body>
@@ -72,7 +72,7 @@ function HomeSkills() {
                   Tools
                 </Card.Header>
 
-                <Card.Text className="p-3 text-secondary">
+                <Card.Text className="p-3 text-hover text-secondary">
                   VSCode Sublime Figma Git GitBash FontAwesome Figma
                 </Card.Text>
               </Card.Body>
@@ -84,7 +84,7 @@ function HomeSkills() {
                   Others
                 </Card.Header>
 
-                <Card.Text className="p-3 text-secondary">
+                <Card.Text className="p-3 text-hover text-secondary">
                   HTML CSS SCSS REST RAPID API
                 </Card.Text>
               </Card.Body>
@@ -97,7 +97,7 @@ function HomeSkills() {
                   Libraries
                 </Card.Header>
 
-                <Card.Text className="p-3 text-secondary">
+                <Card.Text className="p-3 text-hover text-secondary">
                   ReactJS ExpressJS ReactNative Bootstrap TailwindCSS
                 </Card.Text>
               </Card.Body>

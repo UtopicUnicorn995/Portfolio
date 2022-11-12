@@ -14,33 +14,41 @@ function NavigationBar() {
       expand="lg"
     >
       <Container>
-        <Navbar.Brand as={Link} to="/">
-          <img className="navbar-Icon" src={MainIcon} alt="" />
+        <Navbar.Brand className="links-hover" as={Link} to="/">
+          <img className="navbar-Icon " src={MainIcon} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className=" ms-auto">
-            <Nav.Link as={Link} to="/">
+            <Nav.Link className="links-hover" as={Link} to="/">
               <span className="primary-color">#</span>Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/projects">
+            <Nav.Link className="links-hover" as={Link} to="/projects">
               <span className="primary-color">#</span>Works
             </Nav.Link>
-            <Nav.Link as={Link} to="/about">
+            <Nav.Link className="links-hover" as={Link} to="/about">
               <span className="primary-color">#</span>About-me
             </Nav.Link>
-            <Nav.Link as={Link} to="/Contact">
+            <Nav.Link className="links-hover" as={Link} to="/Contact">
               <span className="primary-color">#</span>Contacts
             </Nav.Link>
             <NavDropdown
               title="EN"
               id="basic-nav-dropdown"
-              className="text-white"
+              className="text-white links-hover"
             >
-              <NavDropdown.Item href="#action/3.1">EN</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">TG</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">SP</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">IN</NavDropdown.Item>
+              <NavDropdown.Item className="links-hover" href="#action/3.1">
+                EN
+              </NavDropdown.Item>
+              <NavDropdown.Item className="links-hover" href="#action/3.2">
+                TG
+              </NavDropdown.Item>
+              <NavDropdown.Item className="links-hover" href="#action/3.3">
+                SP
+              </NavDropdown.Item>
+              <NavDropdown.Item className="links-hover" href="#action/3.4">
+                IN
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav.Link

@@ -8,18 +8,22 @@ function Footer() {
   return (
     <Container className="text-white  pt-5 footer mt-3">
       <Row>
-        <Col lg={8} className="d-none d-lg-block">
+        <Col lg={8} xs={12}>
           <Row>
             <Col lg={12} className="secondary-color">
               <img src={MainIcon} className="navbar-Icon" />{" "}
               <small>ChristianBarrios995@gmail.com</small>
             </Col>
-            <Col>
+            <Col className="text-center text-lg-start">
               Full-stack developer and React Native developer in Philippines
             </Col>
           </Row>
         </Col>
-        <Col lg={4} className=" d-flex justify-content-end d-none d-lg-block">
+        <Col
+          lg={4}
+          xs={12}
+          className=" d-flex justify-content-lg-end justify-content-center mt-4"
+        >
           <Row>
             <Col className="text-center mb-3" lg={12}>
               Media

@@ -14,7 +14,7 @@ function HomeAbout() {
       <Row>
         <Col xs={12} className="mb-4 mb-lg-0">
           <div className="position-relative">
-            <h1 className="secondary-color projects-h1 d-inline position-relative pe-3">
+            <h1 className="text-white projects-h1 d-inline position-relative pe-3">
               <span className="primary-color">#</span>About-me
             </h1>
             <div className="skills-line position-absolute"></div>

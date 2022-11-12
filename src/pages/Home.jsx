@@ -5,6 +5,9 @@ import HomeAbout from "../components/HomeAbout";
 import HomeContact from "../components/HomeContact";
 
 function Home() {
+  const isContactPage = false;
+  console.log(isContactPage);
+
   return (
     <>
       <div className="homepage ">
@@ -12,7 +15,7 @@ function Home() {
         <HomeProjects />
         <HomeSkills />
         <HomeAbout />
-        <HomeContact />
+        <HomeContact isContactPage={isContactPage} />
       </div>
     </>
   );
