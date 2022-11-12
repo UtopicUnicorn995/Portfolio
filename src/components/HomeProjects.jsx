@@ -63,8 +63,10 @@ function HomeProjects() {
                 </Card.Header>
                 <Card.Title>House Market</Card.Title>
                 <Card.Text className="text-secondary">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  A Full Stack website using React JS for the front-end and
+                  Firebase for the backend. The goal of this app is to sell/rent
+                  a house, but you can also view and contact the landlord of the
+                  house that you are interested.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
@@ -106,8 +108,9 @@ function HomeProjects() {
                 </Card.Header>
                 <Card.Title>LeChef Culinary School</Card.Title>
                 <Card.Text className="text-secondary">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  This is my first project as a web developer. A simple
+                  full-stack web app for LeChef Culinary School where you can
+                  send an email of your enrollment to the Culinary School.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
@@ -149,8 +152,9 @@ function HomeProjects() {
                 </Card.Header>
                 <Card.Title>Tommy's Water Sports</Card.Title>
                 <Card.Text className="text-secondary">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  This is my final capstone project for Zuitt bootcamp. The goal
+                  of this project is to showcase what was taught in the
+                  bootcamp. This simple web app has a CRUD functionalities.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">

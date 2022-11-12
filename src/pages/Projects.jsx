@@ -42,8 +42,10 @@ function Projects() {
                 </Card.Header>
                 <Card.Title>House Market</Card.Title>
                 <Card.Text className="text-secondary">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  A Full Stack website using React JS for the front-end and
+                  Firebase for the backend. The goal of this app is to sell/rent
+                  a house, but you can also view and contact the landlord of the
+                  house that you are interested.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
@@ -85,8 +87,9 @@ function Projects() {
                 </Card.Header>
                 <Card.Title>LeChef Culinary School</Card.Title>
                 <Card.Text className="text-secondary">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  This is my first project as a web developer. A simple
+                  full-stack web app for LeChef Culinary School where you can
+                  send an email of your enrollment to the Culinary School.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
@@ -126,10 +129,11 @@ function Projects() {
                   <span className="card-span">NodeJS</span>{" "}
                   <span className="card-span">MongoDB</span>{" "}
                 </Card.Header>
-                <Card.Title> Water Sports Ride</Card.Title>
+                <Card.Title>Tommy's Water Sports</Card.Title>
                 <Card.Text className="text-secondary">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  This is my final capstone project for Zuitt bootcamp. The goal
+                  of this project is to showcase what was taught in the
+                  bootcamp. This simple web app has a CRUD functionalities.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
@@ -175,8 +179,8 @@ function Projects() {
               <Card.Body>
                 <Card.Title>CSS only Bouncing animations</Card.Title>
                 <Card.Text className="text-secondary">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  This is a simple css only animation with a 3D effect that
+                  looks good as a screensaver.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
@@ -213,8 +217,8 @@ function Projects() {
               <Card.Body>
                 <Card.Title>Dad Jokes API</Card.Title>
                 <Card.Text className="text-secondary">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  This web app is mainly made using CSS and JS to fetch corny
+                  dad jokes from an API.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
@@ -251,8 +255,8 @@ function Projects() {
               <Card.Body>
                 <Card.Title>Comparing consoles homepage</Card.Title>
                 <Card.Text className="text-secondary">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  A simple home page of an web app that I plan to make in the
+                  future.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
@@ -289,8 +293,8 @@ function Projects() {
               <Card.Body>
                 <Card.Title>To-do-list scroll animation</Card.Title>
                 <Card.Text className="text-secondary">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  A cool scrolling animation using CSS and JS that I found in
+                  udemy that I plan to use someday.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
@@ -327,8 +331,8 @@ function Projects() {
               <Card.Body>
                 <Card.Title>Rotating Navigation</Card.Title>
                 <Card.Text className="text-secondary">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  A rotating navigation using JS and CSS that I could use in my
+                  next portfolio.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
@@ -365,8 +369,8 @@ function Projects() {
               <Card.Body>
                 <Card.Title>Customized accordion display</Card.Title>
                 <Card.Text className="text-secondary">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  A simple customized accordion display that I plan to use. This
+                  is made by manipulating the JS and CSS on button click.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
