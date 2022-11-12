@@ -25,11 +25,13 @@ function HomeProjects() {
           className="mt-3 mt-lg-0 d-flex justify-content-end justify-content-lg-center align-items-center "
         >
           <div className="position-relative view-more-button">
-            <button className="border border-0">
-              <h5 className="secondary-color projects-h1 d-inline position-relative-pe-3">
-                View more <FaArrowRight />
-              </h5>
-            </button>
+            <Link to="/projects">
+              <button className="border border-0">
+                <h5 className="secondary-color projects-h1 d-inline position-relative-pe-3">
+                  View more <FaArrowRight />
+                </h5>
+              </button>
+            </Link>
           </div>
         </Col>
       </Row>

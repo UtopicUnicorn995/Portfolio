@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { FaArrowsAltH, FaDesktop } from "react-icons/fa";
+import { FaArrowsAltH, FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 
@@ -54,8 +54,8 @@ function Projects() {
                   </Col>
                   <Col className="justify-content-center d-flex">
                     <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
-                      Demo&nbsp;
-                      <FaDesktop />
+                      code&nbsp;
+                      <FaCode />
                     </Link>
                   </Col>
                 </Row>
@@ -97,8 +97,8 @@ function Projects() {
                   </Col>
                   <Col className="justify-content-center d-flex">
                     <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
-                      Demo&nbsp;
-                      <FaDesktop />
+                      code&nbsp;
+                      <FaCode />
                     </Link>
                   </Col>
                 </Row>
@@ -140,8 +140,8 @@ function Projects() {
                   </Col>
                   <Col className="justify-content-center d-flex">
                     <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
-                      Demo&nbsp;
-                      <FaDesktop />
+                      code&nbsp;
+                      <FaCode />
                     </Link>
                   </Col>
                 </Row>
@@ -160,7 +160,7 @@ function Projects() {
           <Col
             lg={3}
             xs={12}
-            className="d-flex justify-content-center align-items-center"
+            className="d-flex justify-content-center align-items-center mb-lg-4"
           >
             <Card
               body
@@ -187,8 +187,8 @@ function Projects() {
                   </Col>
                   <Col className="justify-content-center d-flex">
                     <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
-                      Demo&nbsp;
-                      <FaDesktop />
+                      code&nbsp;
+                      <FaCode />
                     </Link>
                   </Col>
                 </Row>
@@ -198,7 +198,7 @@ function Projects() {
           <Col
             lg={3}
             xs={12}
-            className="d-flex justify-content-center align-items-center"
+            className="d-flex justify-content-center align-items-center mb-lg-4"
           >
             <Card
               body
@@ -225,8 +225,8 @@ function Projects() {
                   </Col>
                   <Col className="justify-content-center d-flex">
                     <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
-                      Demo&nbsp;
-                      <FaDesktop />
+                      code&nbsp;
+                      <FaCode />
                     </Link>
                   </Col>
                 </Row>
@@ -236,7 +236,7 @@ function Projects() {
           <Col
             lg={3}
             xs={12}
-            className="d-flex justify-content-center align-items-center"
+            className="d-flex justify-content-center align-items-center mb-lg-4"
           >
             <Card
               body
@@ -263,8 +263,8 @@ function Projects() {
                   </Col>
                   <Col className="justify-content-center d-flex">
                     <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
-                      Demo&nbsp;
-                      <FaDesktop />
+                      code&nbsp;
+                      <FaCode />
                     </Link>
                   </Col>
                 </Row>
@@ -274,7 +274,7 @@ function Projects() {
           <Col
             lg={3}
             xs={12}
-            className="d-flex justify-content-center align-items-center"
+            className="d-flex justify-content-center align-items-center mb-lg-4"
           >
             <Card
               body
@@ -301,8 +301,84 @@ function Projects() {
                   </Col>
                   <Col className="justify-content-center d-flex">
                     <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
-                      Demo&nbsp;
-                      <FaDesktop />
+                      code&nbsp;
+                      <FaCode />
+                    </Link>
+                  </Col>
+                </Row>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col
+            lg={3}
+            xs={12}
+            className="d-flex justify-content-center align-items-center mb-lg-4"
+          >
+            <Card
+              body
+              className="m-2 rounded-0 border border-secondary"
+              style={{ width: "18rem" }}
+            >
+              <Card.Img
+                className="rounded-0"
+                variant="top"
+                src={require("../assets/page.gif")}
+              />
+              <Card.Body>
+                <Card.Title>Rotating Navigation</Card.Title>
+                <Card.Text className="text-secondary">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Row>
+                  <Col className="justify-content-center d-flex">
+                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                      Live&nbsp;
+                      <FaArrowsAltH />
+                    </Link>
+                  </Col>
+                  <Col className="justify-content-center d-flex">
+                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                      code&nbsp;
+                      <FaCode />
+                    </Link>
+                  </Col>
+                </Row>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col
+            lg={3}
+            xs={12}
+            className="d-flex justify-content-center align-items-center mb-lg-4"
+          >
+            <Card
+              body
+              className="m-2 rounded-0 border border-secondary"
+              style={{ width: "18rem" }}
+            >
+              <Card.Img
+                className="rounded-0"
+                variant="top"
+                src={require("../assets/accordion.gif")}
+              />
+              <Card.Body>
+                <Card.Title>Customized accordion display</Card.Title>
+                <Card.Text className="text-secondary">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Row>
+                  <Col className="justify-content-center d-flex">
+                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                      Live&nbsp;
+                      <FaArrowsAltH />
+                    </Link>
+                  </Col>
+                  <Col className="justify-content-center d-flex">
+                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                      code&nbsp;
+                      <FaCode />
                     </Link>
                   </Col>
                 </Row>
