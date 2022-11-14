@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 // import HouseMarketImg from "../assets/HouseMarketImg.png";
 import { FaArrowRight, FaArrowsAltH, FaCode } from "react-icons/fa";
@@ -70,16 +69,26 @@ function HomeProjects() {
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://house-market-gold.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Link>
+                    </a>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://github.com/UtopicUnicorn995/House-Market"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Demo&nbsp;
                       <FaCode />
-                    </Link>
+                    </a>
                   </Col>
                 </Row>
               </Card.Body>
@@ -114,13 +123,23 @@ function HomeProjects() {
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="http://lechef.d3.net/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Link>
+                    </a>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <Link
+                      to="/lechef.d3.codes"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Demo&nbsp;
                       <FaCode />
                     </Link>
@@ -158,16 +177,26 @@ function HomeProjects() {
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://capstone3-barrios.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Link>
+                    </a>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://gitlab.com/batch-196-utopicUnicorn/capstone3-barrios/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Demo&nbsp;
                       <FaCode />
-                    </Link>
+                    </a>
                   </Col>
                 </Row>
               </Card.Body>
@@ -202,16 +231,26 @@ function HomeProjects() {
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://yt-clone-snowy.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Link>
+                    </a>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://github.com/Utopic-Unicorn/YTClone"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Demo&nbsp;
                       <FaCode />
-                    </Link>
+                    </a>
                   </Col>
                 </Row>
               </Card.Body>

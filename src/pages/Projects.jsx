@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { FaArrowsAltH, FaCode } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 
 function Projects() {
@@ -49,16 +48,26 @@ function Projects() {
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://house-market-gold.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Link>
+                    </a>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://github.com/UtopicUnicorn995/House-Market"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Demo&nbsp;
                       <FaCode />
-                    </Link>
+                    </a>
                   </Col>
                 </Row>
               </Card.Body>
@@ -93,16 +102,26 @@ function Projects() {
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="http://lechef.d3.net/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Link>
+                    </a>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="/lechef.d3.codes"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Demo&nbsp;
                       <FaCode />
-                    </Link>
+                    </a>
                   </Col>
                 </Row>
               </Card.Body>
@@ -137,16 +156,26 @@ function Projects() {
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://capstone3-barrios.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Link>
+                    </a>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://gitlab.com/batch-196-utopicUnicorn/capstone3-barrios/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Demo&nbsp;
                       <FaCode />
-                    </Link>
+                    </a>
                   </Col>
                 </Row>
               </Card.Body>
@@ -181,16 +210,26 @@ function Projects() {
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://yt-clone-snowy.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Link>
+                    </a>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://github.com/Utopic-Unicorn/YTClone"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Demo&nbsp;
                       <FaCode />
-                    </Link>
+                    </a>
                   </Col>
                 </Row>
               </Card.Body>
@@ -228,16 +267,26 @@ function Projects() {
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://utopicunicorn995.github.io/3D-CSS---lighting--animations-/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Link>
+                    </a>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://github.com/UtopicUnicorn995/3D-CSS---lighting--animations-"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       code&nbsp;
                       <FaCode />
-                    </Link>
+                    </a>
                   </Col>
                 </Row>
               </Card.Body>
@@ -266,16 +315,26 @@ function Projects() {
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://utopic-unicorn.github.io/Day-10---Dad-Jokes/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Link>
+                    </a>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://github.com/Utopic-Unicorn/Day-10---Dad-Jokes"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       code&nbsp;
                       <FaCode />
-                    </Link>
+                    </a>
                   </Col>
                 </Row>
               </Card.Body>
@@ -304,16 +363,26 @@ function Projects() {
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://utopic-unicorn.github.io/Day-7---Split-Landing-Page/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Link>
+                    </a>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://github.com/Utopic-Unicorn/Day-7---Split-Landing-Page"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       code&nbsp;
                       <FaCode />
-                    </Link>
+                    </a>
                   </Col>
                 </Row>
               </Card.Body>
@@ -342,16 +411,26 @@ function Projects() {
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://utopic-unicorn.github.io/Day-6---Scroll-Animation/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Link>
+                    </a>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://github.com/Utopic-Unicorn/Day-6---Scroll-Animation"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       code&nbsp;
                       <FaCode />
-                    </Link>
+                    </a>
                   </Col>
                 </Row>
               </Card.Body>
@@ -380,16 +459,26 @@ function Projects() {
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://utopic-unicorn.github.io/Day-3/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Link>
+                    </a>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://github.com/Utopic-Unicorn/Day-3"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       code&nbsp;
                       <FaCode />
-                    </Link>
+                    </a>
                   </Col>
                 </Row>
               </Card.Body>
@@ -418,16 +507,26 @@ function Projects() {
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://utopic-unicorn.github.io/Day-11---FAQ/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </Link>
+                    </a>
                   </Col>
                   <Col className="justify-content-center d-flex">
-                    <Link className="btn btn-text text-secondary border-secondary rounded-0 card-button">
+                    <a
+                      href="https://github.com/Utopic-Unicorn/Day-11---FAQ"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
+                    >
                       code&nbsp;
                       <FaCode />
-                    </Link>
+                    </a>
                   </Col>
                 </Row>
               </Card.Body>
