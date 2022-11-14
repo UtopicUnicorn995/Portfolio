@@ -2,6 +2,7 @@ import personImg from "../assets/person.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Link } from "react-router-dom";
 
 function MainHome() {
   return (
@@ -19,9 +20,11 @@ function MainHome() {
             technologies meet creativity.
           </p>
           <div className="button-container">
-            <button className="d-none btn-contact d-lg-block">
-              Contact me!!
-            </button>
+            <Link to="/contact">
+              <button className="d-none btn-contact d-lg-block">
+                Contact me!!
+              </button>
+            </Link>
           </div>
         </Col>
 
