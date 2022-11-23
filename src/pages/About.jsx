@@ -131,12 +131,12 @@ function About() {
             </Col>
             <Col xs={6} md={4} className="text-hover">
               <p className="border border-secondary p-2 ">
-                I do combat sports.
+                I practice combat sports such as boxing and Muay Thai.
               </p>
             </Col>
             <Col xs={6} md={4} className="text-hover">
               <p className="border border-secondary p-2 ">
-                I'm a night person.
+                I'm a night person, I learn faster at night.
               </p>
             </Col>
             <Col xs={6} md={4} className="text-hover">

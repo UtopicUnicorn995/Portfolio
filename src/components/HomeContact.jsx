@@ -42,12 +42,13 @@ function HomeContact({ isContactPage }) {
         <Col xs={12} lg={6}>
           <div className="messageMeDiv border border-secondary d-flex flex-column justify-content-center align-items-center py-3 text-secondary">
             <h4 className="text-hover ">Message me here</h4>
-            <p>
+            <p className=" fs-xs">
               <a
                 href="mailto:ChristianBarrios995@gmail.com"
-                className="links-hover "
+                className="links-hover"
               >
-                <FaEnvelope /> ChristianBarrios995@gmail.com
+                <FaEnvelope className="d-none d-sm-inline" />{" "}
+                ChristianBarrios995@gmail.com
               </a>
             </p>
             <p>
