@@ -65,7 +65,7 @@ function Projects() {
                       rel="noreferrer"
                       className="btn btn-text text-secondary border-secondary rounded-0 card-button"
                     >
-                      Demo&nbsp;
+                      Code&nbsp;
                       <FaCode />
                     </a>
                   </Col>
@@ -119,7 +119,7 @@ function Projects() {
                       rel="noreferrer"
                       className="btn btn-text text-secondary border-secondary rounded-0 card-button"
                     >
-                      Demo&nbsp;
+                      Code&nbsp;
                       <FaCode />
                     </a>
                   </Col>
@@ -173,7 +173,7 @@ function Projects() {
                       rel="noreferrer"
                       className="btn btn-text text-secondary border-secondary rounded-0 card-button"
                     >
-                      Demo&nbsp;
+                      Code&nbsp;
                       <FaCode />
                     </a>
                   </Col>
@@ -227,7 +227,7 @@ function Projects() {
                       rel="noreferrer"
                       className="btn btn-text text-secondary border-secondary rounded-0 card-button"
                     >
-                      Demo&nbsp;
+                      Code&nbsp;
                       <FaCode />
                     </a>
                   </Col>
