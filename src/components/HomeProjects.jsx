@@ -86,7 +86,7 @@ function HomeProjects() {
                       rel="noreferrer"
                       className="btn btn-text text-secondary border-secondary rounded-0 card-button"
                     >
-                      Demo&nbsp;
+                      Code&nbsp;
                       <FaCode />
                     </a>
                   </Col>
@@ -140,7 +140,7 @@ function HomeProjects() {
                       rel="noreferrer"
                       className="btn btn-text text-secondary border-secondary rounded-0 card-button"
                     >
-                      Demo&nbsp;
+                      Code&nbsp;
                       <FaCode />
                     </Link>
                   </Col>
@@ -194,7 +194,7 @@ function HomeProjects() {
                       rel="noreferrer"
                       className="btn btn-text text-secondary border-secondary rounded-0 card-button"
                     >
-                      Demo&nbsp;
+                      Code&nbsp;
                       <FaCode />
                     </a>
                   </Col>
@@ -248,7 +248,7 @@ function HomeProjects() {
                       rel="noreferrer"
                       className="btn btn-text text-secondary border-secondary rounded-0 card-button"
                     >
-                      Demo&nbsp;
+                      Code&nbsp;
                       <FaCode />
                     </a>
                   </Col>
