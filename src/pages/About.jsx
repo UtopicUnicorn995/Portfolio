@@ -146,7 +146,7 @@ function About() {
             </Col>
             <Col xs={6} md={4} className="text-hover">
               <p className="border border-secondary p-2 ">
-                I like don't eat meat if I see them getting butchered.
+                I love meat but I don't eat meat if I see them getting butchered.
               </p>
             </Col>
             <Col xs={6} md={4} className="text-hover">
