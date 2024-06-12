@@ -3,7 +3,7 @@ import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import { FaArrowRight, FaEye } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import pdf from "../assets/ChristianBarriosResume(latest).pdf";
+import pdf from "../assets/ChristianBarriosResume.pdf";
 
 function HomeAbout() {
   const viewResume = () => {

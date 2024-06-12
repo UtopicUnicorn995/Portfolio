@@ -2,7 +2,7 @@ import Container from "react-bootstrap/esm/Container";
 import { Col, Row } from "react-bootstrap";
 import { FaEye } from "react-icons/fa";
 import Card from "react-bootstrap/Card";
-import pdf from "../assets/ChristianBarriosResume(latest).pdf";
+import pdf from "../assets/ChristianBarriosResume.pdf";
 
 function About() {
   return (

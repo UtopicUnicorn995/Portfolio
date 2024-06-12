@@ -52,42 +52,32 @@ function HomeProjects() {
               <Card.Img
                 className="rounded-0"
                 variant="top"
-                src={require("../assets/houseMarket.png")}
+                src={require("../assets/scholaris.png")}
               />
               <Card.Body>
                 <Card.Header className="spanHead">
                   <span className="card-span">ReactJS</span>{" "}
-                  <span className="card-span">Firebase</span>{" "}
-                  <span className="card-span">FirestoreDB</span>{" "}
+                  <span className="card-span">Typescript</span>{" "}
+                  <span className="card-span">Ruby on rails</span>{" "}
                 </Card.Header>
-                <Card.Title>House Market</Card.Title>
+                <Card.Title>Scholaris website</Card.Title>
                 <Card.Text className="text-secondary">
-                  A Full Stack website using React JS for the front-end and
-                  Firebase for the backend. The goal of this app is to sell/rent
-                  a house, but you can also view and contact the landlord of the
-                  house that you are interested.
+                  I designed and helped create a full-stack website using
+                  multiple languages such as React, TypeScript, and Ruby on
+                  Rails. Additionally, I assisted in testing the pages to ensure
+                  functionality. I also helped reviewing the pull request code
+                  to maintain quality and consistency.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
                     <a
-                      href="https://house-market-gold.vercel.app/"
+                      href="https://scholaris.netlify.app/student"
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-text text-secondary border-secondary rounded-0 card-button"
                     >
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </a>
-                  </Col>
-                  <Col className="justify-content-center d-flex">
-                    <a
-                      href="https://github.com/UtopicUnicorn995/House-Market"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
-                    >
-                      Code&nbsp;
-                      <FaCode />
                     </a>
                   </Col>
                 </Row>
@@ -161,41 +151,31 @@ function HomeProjects() {
               <Card.Img
                 className="rounded-0"
                 variant="top"
-                src={require("../assets/watersport.png")}
+                src={require("../assets/companypage.png")}
               />
               <Card.Body>
                 <Card.Header className="spanHead">
-                  <span className="card-span">ReactJS</span>{" "}
-                  <span className="card-span">NodeJS</span>{" "}
-                  <span className="card-span">MongoDB</span>{" "}
+                  <span className="card-span">Wordpress</span>{" "}
+                  <span className="card-span">PHP</span>{" "}
+                  <span className="card-span">jQuery</span>{" "}
                 </Card.Header>
-                <Card.Title>Tommy's Water Sports</Card.Title>
+                <Card.Title>Sence1 Company website</Card.Title>
                 <Card.Text className="text-secondary">
-                  This is my final capstone project for Zuitt bootcamp. The goal
-                  of this project is to showcase what was taught in the
-                  bootcamp. This simple web app has a CRUD functionalities.
+                  This is one of the websites I worked on with my team. I
+                  created the design myself, while some of my team members
+                  helped with the code and components. It was a rewarding
+                  experience to see our collaboration come to life.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
                     <a
-                      href="https://capstone3-barrios.vercel.app/"
+                      href="https://sence1.com/"
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-text text-secondary border-secondary rounded-0 card-button"
                     >
                       Live&nbsp;
                       <FaArrowsAltH />
-                    </a>
-                  </Col>
-                  <Col className="justify-content-center d-flex">
-                    <a
-                      href="https://gitlab.com/batch-196-utopicUnicorn/capstone3-barrios/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="btn btn-text text-secondary border-secondary rounded-0 card-button"
-                    >
-                      Code&nbsp;
-                      <FaCode />
                     </a>
                   </Col>
                 </Row>
