@@ -64,9 +64,8 @@ function HomeProjects() {
                 <Card.Text className="text-secondary">
                   I designed and helped create a full-stack website using
                   multiple languages such as React, TypeScript, and Ruby on
-                  Rails. Additionally, I assisted in testing the pages to ensure
-                  functionality. I also helped reviewing the pull request code
-                  to maintain quality and consistency.
+                  Rails. I also assisted in testing the pages functionalities
+                  and reviewing the code's pull request.
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
@@ -163,8 +162,7 @@ function HomeProjects() {
                 <Card.Text className="text-secondary">
                   This is one of the websites I worked on with my team. I
                   created the design myself, while some of my team members
-                  helped with the code and components. It was a rewarding
-                  experience to see our collaboration come to life.
+                  helped with the code and components. 
                 </Card.Text>
                 <Row>
                   <Col className="justify-content-center d-flex">
